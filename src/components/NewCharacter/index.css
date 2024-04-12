@@ -1,0 +1,27 @@
+.display-pic {
+  background-color: rgb(233, 140, 54);
+  border-radius: 50%;
+  width: 75px;
+}
+.new-char-container {
+  display: flex;
+}
+
+.character-container {
+  padding: 24px;
+  padding-left: 48px;
+  padding-right: 48px;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70vw;
+  padding: 24px;
+  padding-left: 48px;
+  padding-right: 48px;
+}
+
+.back {
+  align-self: flex-start;
+}

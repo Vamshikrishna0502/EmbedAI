@@ -1,0 +1,132 @@
+.bg-container {
+  display: flex;
+  font-family: "Onest, sans-serif";
+}
+
+.home-container {
+  padding: 28px;
+  padding-left: 32px;
+  padding-right: 32px;
+  height: 90vh;
+  overflow-y: scroll;
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  margin-top: 12px;
+  border-radius: 24px;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("https://images.pexels.com/photos/1563356/pexels-photo-1563356.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+}
+.child {
+  max-width: 250px;
+  background-image: linear-gradient(to right, #fff, rgba(218, 223, 223, 0.781));
+  border-radius: 8px;
+  margin: 8px;
+  padding: 12px;
+}
+.child-container {
+  display: flex;
+}
+
+.slider-container {
+  padding: 12px;
+  max-width: 75vw;
+}
+
+.slider-image {
+  width: 75px;
+  margin-right: 12px;
+}
+
+.slider-image-container {
+  display: flex;
+}
+
+.tab-item {
+  padding: 8px;
+  text-align: center;
+  background-color: rgb(226, 223, 223);
+  border-radius: 12px;
+}
+
+.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.tab-container {
+  margin: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.tabMargin {
+  margin: 4px;
+}
+
+.slider-border {
+  border-radius: 50%;
+  width: 30px;
+  margin-right: 10px;
+}
+
+.slider-inner-container {
+  display: flex;
+  align-items: center;
+}
+.search-bar {
+  background-color: rgb(221, 219, 219);
+  border-radius: 12px;
+  padding: 12px;
+  min-width: 280px;
+  display: flex;
+  align-items: center;
+}
+.search {
+  background-color: rgb(221, 219, 219);
+  border: 0px;
+}
+
+.card {
+  background-color: rgb(235, 232, 232);
+  border-radius: 12px;
+  width: 200px;
+  padding: 12px;
+}
+.card-padding {
+  margin: 6px;
+}
+.card-2 {
+  background-color: rgb(235, 232, 232);
+  margin-bottom: 6px;
+  border-radius: 12px;
+  width: 200px;
+  padding: 6px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 90px;
+}
+
+.footer-item {
+  margin-left: 16px;
+  margin-right: 16px;
+}

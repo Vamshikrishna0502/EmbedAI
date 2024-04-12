@@ -1,0 +1,37 @@
+.side-bar-container {
+  width: 15%;
+  height: 95vh;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0.5px 0px rgb(211, 210, 210);
+  font-family: "Onest, sans-serif";
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.button {
+  margin: 8px;
+  background-color: rgb(226, 223, 223);
+  border: 0px;
+  padding: 12px;
+  border-radius: 36px;
+}
+
+.font {
+  font-size: 18px;
+}
+.button-container {
+  text-align: center;
+}
