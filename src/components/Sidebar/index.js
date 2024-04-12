@@ -25,7 +25,7 @@ const Sidebar = (props) => {
             </button>
           </div>
         </div>
-        <h4>Chats</h4>
+        <h3>Chats</h3>
       </div>
       <div>
         <hr />
